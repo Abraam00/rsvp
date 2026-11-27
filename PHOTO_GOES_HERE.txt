@@ -1,0 +1,1 @@
+Replace this file with your couple photo named couple-photo.jpg. The site references /couple-photo.jpg.
