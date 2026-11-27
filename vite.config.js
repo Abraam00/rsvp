@@ -6,6 +6,11 @@ export default defineConfig({
 	base: "/rsvp/",
 	plugins: [react()],
 	server: {
-		proxy: { "/api": { target: "http://localhost:10000", changeOrigin: true } },
+		proxy: {
+			"/api": {
+				target: "https://rsvp-backend-yskv.onrender.com",
+				changeOrigin: true,
+			},
+		},
 	},
 });
